@@ -19,6 +19,5 @@ html {
 h1,
 h2,
 h3 {
-    @apply font-header;
-    @apply font-bold;
+    @apply font-header font-bold;
 }
