@@ -1,0 +1,23 @@
+:root {
+    --page-padding-top: 80px;
+}
+
+html {
+    @apply font-body;
+
+    font-feature-settings: 'palt';
+    overflow-x: hidden;
+    font-size: 16px;
+    word-spacing: 1px;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    @apply font-header font-bold;
+}

@@ -1,6 +1,23 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
-  // add your custom config here
-  // https://stylelint.io/user-guide/configuration
-  rules: {},
+    extends: ['stylelint-config-standard', 'stylelint-prettier/recommended'],
+    rules: {
+        "indentation": 4,
+        'selector-pseudo-element-colon-notation': 'single',
+        'no-descending-specificity': null,
+        'at-rule-no-unknown': [
+            true,
+            {
+                ignoreAtRules: [
+                    'extends',
+                    'apply',
+                    'tailwind',
+                    'components',
+                    'utilities',
+                    'variants',
+                    'responsive',
+                    'screen',
+                ],
+            },
+        ],
+    },
 }
