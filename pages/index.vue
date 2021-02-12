@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
-    <div>
-      <PageHeader />
-      <HowTo />
-      <Generator />
-      <Share />
-      <PageFooter />
+    <div class="container">
+        <div>
+            <PageHeader />
+            <HowTo />
+            <Generator />
+            <Share />
+            <PageFooter />
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -16,11 +16,11 @@ export default {}
 
 <style>
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 </style>
